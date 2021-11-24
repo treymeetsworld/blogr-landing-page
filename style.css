@@ -82,4 +82,27 @@ body{
 .svg-2{
   background-size: cover;
   margin: -70px 0 -100px 0;
+  padding-left: 2em;
+}
+
+.content-3{
+  margin-top: 5em;
+  display: flex;
+}
+.svg-3{
+  background: url('illustration-laptop-desktop.svg');
+  background-size: 37em;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 50%;
+  background-position-x: -3em;
+}
+.hidden{
+  visibility: hidden;
+}
+.comp-content{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
 }
