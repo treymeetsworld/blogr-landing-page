@@ -33,6 +33,34 @@ body{
   margin: 5em;
   list-style: none;
 }
+.nav ul {
+  list-style: none;
+  padding-left: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s ease ;
+  transform: translateY(10px);
+  margin: 0;
+}
+a.button:hover + ul, 
+a.button:focus + ul{
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px)
+}
+
+.nav li {
+  padding: 2px;
+}
+a {
+  color: #ffff;
+  text-decoration: none;
+}
+a:hover {
+  color:hsl(240, 2%, 79%);
+  text-decoration: underline;
+}
 .hero{
   margin: 5em;
 }
